@@ -1,0 +1,19 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "testing",
+  "scripts": {
+    "images": "mocha Tests/Images.js",
+    "listAllBreeds": "mocha Tests/ListAllBreeds.js",
+    "randomImage": "mocha Tests/RandomImage.js"
+  },
+  "author": "Gizela",
+  "license": "ISC",
+  "devDependencies": {
+    "chakram": "^1.5.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-string": "^1.5.0"
+  }
+}
